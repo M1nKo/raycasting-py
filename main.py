@@ -32,8 +32,8 @@ class Game:
     #en cada iteración nos pintará la pantalla de negro
     def draw(self):
         self.screen.fill('black')
-        self.map.draw()
-        self.player.draw()
+        #self.map.draw()
+        #self.player.draw()
 
 
     #checkea las teclas pulsadas
